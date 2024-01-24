@@ -4,8 +4,6 @@ function getShippingCost(country) {
     case 'Australia':
       price = 170;
       break;
-    case 'Germany':
-      break;
     case 'China':
       price = 100;
       break;
@@ -14,8 +12,6 @@ function getShippingCost(country) {
       break;
     case 'Jamaica':
       price = 120;
-      break;
-    case 'Sweden':
       break;
     default:
       return 'Sorry, there is no delivery to your country';
